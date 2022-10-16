@@ -16,6 +16,8 @@ public class Application {
                 .gender(Gender.MALE)
                 .address(address)
                 .build();
+
+
         System.out.println(person);
     }
 }

@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -12,20 +13,20 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <auto-value.version>1.10</auto-value.version>
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>com.google.auto.value</groupId>
             <artifactId>auto-value-annotations</artifactId>
-            <version>1.10</version>
+            <version>${auto-value.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.google.auto.value/auto-value -->
         <dependency>
             <groupId>com.google.auto.value</groupId>
             <artifactId>auto-value</artifactId>
-            <version>1.10</version>
+            <version>${auto-value.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

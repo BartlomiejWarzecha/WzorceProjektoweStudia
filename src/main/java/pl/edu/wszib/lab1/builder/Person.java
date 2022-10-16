@@ -30,6 +30,10 @@ public class Person {
         private Gender gender;
         private Address address;
 
+        private Male male;
+
+        private Female female;
+
         public Person build() {
             return new Person(
                     firstName,
@@ -67,4 +71,6 @@ public class Person {
             return Address.builder();
         }
     }
+
+
 }
